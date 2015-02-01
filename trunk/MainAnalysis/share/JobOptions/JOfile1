@@ -1,0 +1,49 @@
+############## general job settings
+createPUfile = 0
+testRun = 0
+doPileupReweighting = 1
+doSystematics =	1
+doHistos = 0
+isDerivation = 0
+
+############## tau related
+tau_selection_recommended = 0
+apply_tau_correction = 1
+tau_min_pt = 20.
+tau_jet_bdt = JETIDBDTMEDIUM
+tau_ele_bdt = ELEIDBDTLOOSE
+tau_jet_overal_dR = 0.2
+tau_muon_overal_dR = 0.2
+
+############## jet related
+jet_collection = AntiKt4LCTopo
+jet_min_pt = 20.
+jet_max_abs_eta = 4.5
+apply_jet_recalibration = 1
+apply_JES_correction = 1
+apply_JER_correction = 1
+jet_cleaning = VeryLooseBad 
+jet_jvfcut  = 0.25
+
+
+############## muon related
+apply_muon_calibration_and_smearing = 1
+muon_min_pt  = 20.0 
+muon_max_iso = 0.1  
+
+############## MET related
+met_container = MET_RefFinal
+met_jetColl = AntiKt4LCTopoCalibJets
+met_muonColl = CalibMuons
+met_tauColl = CalibTaus
+met_eleColl = CalibElectrons
+met_eleTerm = RefEle
+met_gammaTerm = RefGamma
+met_tauTerm = RefTau
+met_jetTerm = RefJet
+met_muonTerm = Muons
+met_softTerm = SoftClus
+met_outMETCont = MET_Calib
+met_outMETTerm = Final
+met_jetPtCut = 0.0 
+met_jetDoJvf = false

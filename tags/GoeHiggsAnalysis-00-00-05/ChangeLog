@@ -1,0 +1,221 @@
+2014-12-11: Santa Klaus
+	- Sum of MC weights read from MetaData in ChangeInput method for DxAOD
+	- new JobOption: bool true when running on DxAOD
+	- sum of MC weights stored in output tree
+
+2014-12-02: ZetZet
+	- BoolTox -> xTools
+	- new/delete pointers -> unique_ptr
+	- still some CP tools to migrate to using smart pointers
+
+2014-12-02: ZinZin
+	- MainAnalysisJobOptions.h is totaly depleted and replaced by the xJobOptions pure C++11 class
+	
+2014-12-01: ZigZag
+	- xJobOptions done
+	- need to implement changes in the main code
+	- need to remove aldo dependencies
+	
+2014-11-26: Easy E
+	- JetCalibTools now with pathresolver (rc base 2.0.19)
+	- preliminary JobOption function template (string input not included)
+	- JobOption input path now relative to $ROOTCOREBIN
+	- properties for pileuptool only specified when createPUfile/doPUrew
+	- skip calibration of jets with pt<15 GeV
+
+2014-11-14: ZZ
+	- job options header file included 
+	- xPlotter under construction
+	- submiting changes for tag 00-00-02
+	
+2014-11-09: ZZ
+	- CP tools checked:
+	GoodRunsListSelectionTool
+	PileupReweightingTool
+	JetCleaningTool
+	JERTool
+	JetCalibrationTool
+	JetUncertaintiesTool
+	TauSmearingTool
+	TauSelectionTool
+	TauEfficiencyCorrectionsTool
+	MuonCalibrationAndSmearingTool
+	MuonSelectionTool
+	MuonEfficiencyScaleFactors
+	METRebuilder
+	SystematicSet
+	- look at https://its.cern.ch/jira/browse/ATLTAU-428 for full report
+	- all jobs options in a dedicated class, variables are initialized in public
+	- muon definition for tau-muon OR
+	- compiles with Base,2.0.18
+	- default JOs set
+	- submiting changes for tag 00-00-01
+	
+2014-11-09: UB
+	- Write numPV (2 tracks), Jes unc only for NPV>0
+	- make writing Histos configurable
+	
+2014-11-08: UB
+	- enable and check/debug systematics loop
+	- enable jet calibration by allowing for warnings 
+	- add JVF cut (configurable), also part of GoodJet definition now 
+	- add JOfile1 with my latest settings
+	- Connect TauEff instance with TauSelector instance
+2014-10-24: Z^2
+	- change the position where the shallow copies are created (before outside the syst loop)
+	- inside the syst loop: recreate shallow copies in every systematics iteration and apply smearing for each systematc independently
+
+2014-10-24: La Doppia Zeta
+	- lot's of investigations on CP tools
+	- https://its.cern.ch/jira/browse/ATLTAU-428
+	- jet calibration tool has a failure rate of 100%
+
+2014-10-24: Z^2
+	- more jet variables
+	- coll. approx. for dimuons and tau-muon
+	- met centrality
+	- W mT with light lepton
+	- W mT with tau
+
+2014-10-24: Z^2
+	- switching off the pile up stuff before tagging this svn version 
+
+014-10-24: U.B. 
+	- switched off  automated recalculation of photons
+	- reduced frequency of Output
+	- increased jet pt cut and switched on muon calibration in default JO
+
+2014-10-24: ZetZet 
+	- muon-tau OR
+	- tau-jet OR
+	- tau jet bdt id efficiency SF as tree branch
+	- muon efficiency SF as tree branch
+	- collinear approxiamtion for ditau events
+
+2014-10-16: Zinonas "Sissy" 
+	- jet BDT JobOption added via bool tox
+	- ele BDT JobOption added via bool tox
+	- tau, muon, jet multiplicity tree branch added
+	- *tau_JetBDT* variables added in trees
+	- actual and average_int_per_bunch_crossing added as tree branch
+
+2014-10-17: Eric "The Spear" Dre
+	- implemented external jobOption input
+		- read in RunMainAnalysis.cxx
+		- MainAnalysis constructor sets defaults
+		- !! order of input arguments changed
+		- hopefully sufficient print-out ;)
+		- option files stored in MainAnalysis/share/JobOptions/*
+
+2014-10-16: Zinonas from Friedrich-Hund-Platz 1 
+	- Electrons Container
+	- more MET closure investigations
+
+2014-10-16: Zinonas from D.00.117
+	- MuonColl and TauColl in MET as well
+	- need to check the MET closure again
+
+2014-10-16: Zinonas from D.00.117
+	-apply muon correction
+	-apply jer correction
+	-apply jes correction
+	-implement xAOD setOriginalObjectLink from xAODBase IParticleHelpers.h
+	
+2014-10-15: Zinonas from Nord Weende
+	- systematics loop enabled
+	- setup tools to be configured for systematics
+	- move "retrieve xAOD container" outside the systematic loop in execute()
+
+2014-10-14: Zinonas from CIP-Pool
+	- JERSmearingTool added and connected to JERTool
+
+2014-10-10: Monsieur Éric
+	- adapted to Base release 2.0.13, i.e. ApplyJetCalib->JetCalibTool
+
+2014-10-10: Éric
+	-	fixed filltree -> missing if(#lep > 0) statements
+	- changed init values of branches from 0 to -999
+	-	fixed filltree -> missing if(#lep > 0) statements
+	- changed init values of branches from 0 to -999
+
+2014-10-09: Eric from ACR B) B)
+	-	moved jobOptions MuonTools to correct place
+	- Ulla's input change implemented -> third argument is input dir
+	- added output histos for muons
+
+2014-10-07: Eric from CERN B)
+	-	added preliminary plotscript to plottron dir ;)
+
+2014-10-04: Zinonas from Cyprus
+	- more tree variables
+	- more functionalities in the booltox class: mass calculation. distances, etc
+	- the tau selection tool still not working for the custom setup
+	- nominal tree is ready for a simple T&P 
+	
+2014-10-03: Zinonas from Cyprus
+	- muon transient container
+	- muon selection tool
+	- muon correction and smearing tool
+	- muon deep container
+	- muon pT sort
+	
+2014-10-01: Zinonas
+	- trees in, still working on it
+
+2014-09-30: Eric
+	- created share folder in MainAnalysis-dir
+	-> external files (GRL) for GRID runs need to go there!
+
+2014-09-24: Zinonas
+	- MET Closure! Yeay!
+	
+2014-09-27: Eric
+	-	implemented possibility to run on GRID in MainAnal*/util/RunMainAnal*.cxx
+	- call RunMainAnalysis submitDir 1 on GRID
+
+2014-09-23: Zinonas
+	- MET and MET_Calib terms
+	- MET job options
+	- MET closure still not working
+	
+2014-09-20: Zinonas
+	- TStore moved in initialize()
+	
+2014-09-19: Zinonas
+	- METRebuilder - not able to retrieve the stored calib jets
+	
+2014-09-12: Zinonas
+	- collinear approximation in booltox class
+	
+2014-09-11: Zinonas
+	- sort "view elements" jet container tested
+	- IParticle invariant mass calculation in bool tox
+	
+2014-09-11: Zinonas
+	- pt sort predicate and function in booltox
+	- sort "view elements" jet container
+
+2014-09-10: Zinonas
+	- jet decoration in booltox class
+	- select good jets
+	- tau-jet overlap decoration of jets in booltox class
+	- add view elements jet container to select good jets
+
+2014-09-4: Zinonas, Eric
+	- EDM and CP declarations in MainAnalysis/MainAnalysis/MainAnalysisIncludes.h 
+	- JetCalibrationTool in work
+	- pT sort depricate function in MainAnalysisIncludes.h
+	- test pT sorting of the jet container on a shallow copy
+
+2014-08-29: Zinonas
+	- stl map to handle hsitograms (1D)
+	- event weight variable
+	- testing histos with jet pt 
+	- pile up distributions
+	 
+2014-08-29: Zinonas
+	- implementing the shallow copy of the the jet container
+	
+2014-08-27: Eric
+	- deleted hardcoded input-dir path in MainAnalysis.cxx
+	- softlink xAOD in workdir to inputdir

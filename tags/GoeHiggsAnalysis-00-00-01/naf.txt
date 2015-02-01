@@ -1,0 +1,10 @@
+qsub -l distro=sld6  -l cvmfs  -l h_rt=15:00:00 MyScript.sh
+
+In the batch script, xou have to do all the localSetups
+
+SLC6 worker nodes for compilation etc are:
+nafhh-atlas01
+nafhh-atlas02
+nafhh-atlas03
+nafhh-atlas04
+

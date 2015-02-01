@@ -1,0 +1,42 @@
+muons
+======
+https://svnweb.cern.ch/trac/atlasoff/browser/PhysicsAnalysis/MuonID/MuonSelectorTools/
+
+
+systymatics
+===========
+ https://twiki.cern.ch/twiki/bin/viewauth/AtlasComputing/SoftwareTutorialxAODAnalysisInROOT#Muon_calibration_and_smearing_to
+
+jets
+====
+   //ref: https://svnweb.cern.ch/trac/atlasoff/browser/Event/xAOD/xAODJet/trunk/xAODJet/versions
+
+jet calibration
+===============
+  // ref: https://svnweb.cern.ch/trac/atlasoff/browser/Reconstruction/Jet/JetCalibTools
+  // ref: https://twiki.cern.ch/twiki/bin/view/AtlasProtected/JetCalibTools
+  // ref: https://twiki.cern.ch/twiki/bin/viewauth/AtlasProtected/ApplyJetCalibration2014
+
+jer
+===
+  //ref: https://svnweb.cern.ch/trac/atlasoff/browser/Reconstruction/Jet/JetResolution/trunk
+
+tau efficiency
+==============
+//ref: https://svnweb.cern.ch/trac/atlasoff/browser/PhysicsAnalysis/TauID/TauAnalysisTools/tags/TauAnalysisTools-00-00-04/doc/README-TauEfficiencyCorrectionsTool.rst
+
+tau smearing
+============
+  //ref: https://svnweb.cern.ch/trac/atlasoff/browser/PhysicsAnalysis/TauID/TauAnalysisTools/tags/TauAnalysisTools-00-00-04/doc/README-TauSmearingTool.rst
+
+tau selection
+=============
+ //ref: https://svnweb.cern.ch/trac/atlasoff/browser/PhysicsAnalysis/TauID/TauAnalysisTools/trunk/README.rst
+  //ref: https://svnweb.cern.ch/trac/atlasoff/browser/PhysicsAnalysis/TauID/TauAnalysisTools/trunk/doc/README-TauSelectionTool.rst
+  //ref: https://svnweb.cern.ch/trac/atlasoff/browser/PhysicsAnalysis/TauID/TauAnalysisTools/trunk/TauAnalysisTools/Enums.h
+
+MET rebuilder
+=============
+  //ref: https://svnweb.cern.ch/trac/atlasoff/browser/Reconstruction/MET/METUtilities/trunk
+  //ref: https://svnweb.cern.ch/trac/atlasoff/browser/Reconstruction/MET/METUtilities/trunk/Root/METRebuilder.cxx for not default configs
+

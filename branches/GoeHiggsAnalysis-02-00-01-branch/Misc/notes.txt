@@ -1,0 +1,396 @@
+
+
+    //   SH::scanDQ2 (sh, "data12_8TeV.periodB.physics_Muons.PhysCont.AOD.repro16_v01/");
+    //   SH::scanDQ2 (sh, "mc14_8TeV.167749.Sherpa_CT10_ZeeMassiveCBPt0_BFilter.merge.AOD.e1585_s1933_s1911_r5591_r5625/");
+    //   SH::scanDQ2 (sh, "mc14_8TeV.147808.PowhegPythia8_AU2CT10_Ztautau.recon.AOD.e2372_s1933_s1911_r5591/");
+    SH::addGrid(sh, "mc14_8TeV.147808.PowhegPythia8_AU2CT10_Ztautau.merge.AOD.e2372_s1933_s1911_r5591_r5625/"               );
+    //SH::addGrid(sh, "mc14_8TeV.117050.PowhegPythia_P2011C_ttbar.merge.AOD.e1727_s1933_s1911_r5591_r5625/"                   );
+    //   SH::addGrid(sh, "mc14_8TeV.110140.PowhegPythia_P2011C_st_Wtchan_incl_DR.merge.AOD.e1743_s1933_s1911_r5591_r5625/"       );
+    //   SH::addGrid(sh, "mc14_8TeV.110101.AcerMCPythia_P2011CCTEQ6L1_singletop_tchan_l.merge.AOD.e2096_s1933_s1911_r5591_r5625/");
+    //   SH::addGrid(sh, "mc14_8TeV.110119.PowhegPythia_P2011C_st_schan_lep.merge.AOD.e1720_s1933_s1911_r5591_r5625/"            );
+    //   SH::addGrid(sh, "mc14_8TeV.167750.Sherpa_CT10_ZeeMassiveCBPt0_CFilterBVeto.merge.AOD.e1585_s1933_s1911_r5591_r5625/"    );
+    //   SH::addGrid(sh, "mc14_8TeV.167753.Sherpa_CT10_ZmumuMassiveCBPt0_CFilterBVeto.merge.AOD.e1585_s1933_s1911_r5591_r5625/"  );
+    //   SH::addGrid(sh, "mc14_8TeV.167741.Sherpa_CT10_WenuMassiveCBPt0_CJetFilterBVeto.merge.AOD.e1585_s1933_s1911_r5591_r5625/");
+    //   SH::addGrid(sh, "mc14_8TeV.167744.Sherpa_CT10_WmunuMassiveCBPt0_CJetFilterBVeto.merge.AOD.e1585_s1933_s1911_r5591_r5625/");
+    //   SH::addGrid(sh, "mc14_8TeV.167747.Sherpa_CT10_WtaunuMassiveCBPt0_CJetFilterBVeto.merge.AOD.e1585_s1933_s1911_r5591_r5625/");
+    //   SH::addGrid(sh, "mc14_8TeV.167749.Sherpa_CT10_ZeeMassiveCBPt0_BFilter.merge.AOD.e1585_s1933_s1911_r5591_r5625/");
+    //   SH::addGrid(sh, "mc14_8TeV.167751.Sherpa_CT10_ZeeMassiveCBPt0_CVetoBVeto.merge.AOD.e1585_s1933_s1911_r5591_r5625/");
+    //   SH::addGrid(sh, "mc14_8TeV.167752.Sherpa_CT10_ZmumuMassiveCBPt0_BFilter.merge.AOD.e1585_s1933_s1911_r5591_r5625/");
+    //   SH::addGrid(sh, "mc14_8TeV.167754.Sherpa_CT10_ZmumuMassiveCBPt0_CVetoBVeto.merge.AOD.e1585_s1933_s1911_r5591_r5625/");
+    //   SH::addGrid(sh, "mc14_8TeV.167740.Sherpa_CT10_WenuMassiveCBPt0_BFilter.merge.AOD.e1585_s1933_s1911_r5591_r5625/");
+    //   SH::addGrid(sh, "mc14_8TeV.167742.Sherpa_CT10_WenuMassiveCBPt0_CJetVetoBVeto.merge.AOD.e1585_s1933_s1911_r5591_r5625/");
+    //   SH::addGrid(sh, "mc14_8TeV.167743.Sherpa_CT10_WmunuMassiveCBPt0_BFilter.merge.AOD.e1585_s1933_s1911_r5591_r5625/");
+    //   SH::addGrid(sh, "mc14_8TeV.167745.Sherpa_CT10_WmunuMassiveCBPt0_CJetVetoBVeto.merge.AOD.e1585_s1933_s1911_r5591_r5625/");
+    //   SH::addGrid(sh, "mc14_8TeV.167746.Sherpa_CT10_WtaunuMassiveCBPt0_BFilter.merge.AOD.e1585_s1933_s1911_r5591_r5625/");
+    //   SH::addGrid(sh, "mc14_8TeV.167748.Sherpa_CT10_WtaunuMassiveCBPt0_CJetVetoBVeto.merge.AOD.e1585_s1933_s1911_r5591_r5625/");
+    //   SH::addGrid(sh, "mc14_8TeV.167749.Sherpa_CT10_ZeeMassiveCBPt0_BFilter.merge.AOD.e1585_s1933_s1911_r5591_r5625/");
+    //   SH::addGrid(sh, "mc14_8TeV.167751.Sherpa_CT10_ZeeMassiveCBPt0_CVetoBVeto.merge.AOD.e1585_s1933_s1911_r5591_r5625/");
+    //   SH::addGrid(sh, "mc14_8TeV.167752.Sherpa_CT10_ZmumuMassiveCBPt0_BFilter.merge.AOD.e1585_s1933_s1911_r5591_r5625/");
+    //   SH::addGrid(sh, "mc14_8TeV.167754.Sherpa_CT10_ZmumuMassiveCBPt0_CVetoBVeto.merge.AOD.e1585_s1933_s1911_r5591_r5625/");
+    //   SH::addGrid(sh, "mc14_8TeV.167740.Sherpa_CT10_WenuMassiveCBPt0_BFilter.merge.AOD.e1585_s1933_s1911_r5591_r5625/");
+    //   SH::addGrid(sh, "mc14_8TeV.167742.Sherpa_CT10_WenuMassiveCBPt0_CJetVetoBVeto.merge.AOD.e1585_s1933_s1911_r5591_r5625/");
+    //   SH::addGrid(sh, "mc14_8TeV.167743.Sherpa_CT10_WmunuMassiveCBPt0_BFilter.merge.AOD.e1585_s1933_s1911_r5591_r5625/");
+    //   SH::addGrid(sh, "mc14_8TeV.167745.Sherpa_CT10_WmunuMassiveCBPt0_CJetVetoBVeto.merge.AOD.e1585_s1933_s1911_r5591_r5625/");
+    //   SH::addGrid(sh, "mc14_8TeV.167746.Sherpa_CT10_WtaunuMassiveCBPt0_BFilter.merge.AOD.e1585_s1933_s1911_r5591_r5625/");
+    //   SH::addGrid(sh, "mc14_8TeV.167748.Sherpa_CT10_WtaunuMassiveCBPt0_CJetVetoBVeto.merge.AOD.e1585_s1933_s1911_r5591_r5625/");
+
+//--------------------------------------------------------------------------------------------------
+
+    //check if store agrees with original container
+    // auto tmp_JetShallowCopyCont = xAOD::shallowCopyContainer( *tmpEleCont );
+    //auto tmp_JetShallowCopyCont = xAOD::shallowCopyContainer( *tmpJetCont );
+    //tmp - to check if store collection and default collections match
+    /*
+      auto def_JetShallowCopyCont = xAOD::shallowCopyContainer( *JetCont );
+      for(int i =0; i < def_JetShallowCopyCont.first->size(); i++){
+
+      if( std::fabs( def_JetShallowCopyCont.first->at(i)->pt() - tmpJetCont->at(i)->pt()) > 1e-6 ) {
+      Error("execute()", "Jets not matching def pt=%.6f  tmp pt=%.6f  Exiting...", def_JetShallowCopyCont.first->at(i)->pt() , tmpJetCont->at(i)->pt() );
+      return EL::StatusCode::FAILURE;
+      }
+
+      }
+    */
+
+
+
+//--------------------------------------------------------------------------------------------------
+
+Info( "execute()", "mu OR %i, pt=%f, eta=%f", (*MuonShallowCopyItr)->auxdata< int >( "overlap" ) , (*MuonShallowCopyItr)->pt() * MeV2GeV, (*MuonShallowCopyItr)->eta())
+
+      Info( "execute()", "no mu-tau OR %i", (*TauJetShallowCopyItr)->auxdata< int >( "no_muon_overlap" ) );
+
+//--------------------------------------------------------------------------------------------------
+
+valgrind --tool=memcheck --leak-check=yes --show-reachable=yes --num-callers=20 --track-fds=yes  RunMainAnalysis test100
+
+//--------------------------------------------------------------------------------------------------
+       /*
+        // Get the MC resolution
+        ( *JetShallowCopyItr )->auxdata< double >( "jet_JERes" ) = static_cast< double >( m_JERTool->getRelResolutionMC((*JetShallowCopyItr)) );
+
+        jet_JERes = m_JERTool->getRelResolutionMC((*JetShallowCopyItr));
+
+        // Get the resolution uncertainty
+        ( *JetShallowCopyItr )->auxdata< double >( "jet_JERes" ) = static_cast< double >( m_JERTool->getUncertainty((*JetShallowCopyItr), false, false));
+
+        jet_JERunc = m_JERTool->getUncertainty((*JetShallowCopyItr), false, false);     // getUncertainty(const xAOD::Jet* jet, bool alt2, bool isAFII)
+        //Info("execute()", "jet mcRes = %f , uncert = %f", jet_JERes, jet_JERunc);
+
+        //apply JES and uncert
+        */
+
+//--------------------------------------------------------------------------------------------------
+
+muons tester
+
+https://svnweb.cern.ch/trac/atlasoff/browser/PhysicsAnalysis/MuonID/MuonIDAnalysis/MuonMomentumCorrections/tags/MuonMomentumCorrections-01-00-11/util/MCAST_Tester.cxx
+
+//--------------------------------------------------------------------------------------------------
+
+//GRID
+
+localSetupDQ2Client
+voms-proxy-init -voms atlas
+localSetupPandaClient currentJedi --noAthenaCheck
+rcSetup Base,2.0.14
+rc find_packages
+rc compile
+
+//--------------------------------------------------------------------------------------------------
+
+ std::unique_ptr<TFile> fd(new TFile(m_refMapFileName.c_str())); 
+ 			        if (fd.get() == NULL ){ 
+
+//--------------------------------------------------------------------------------------------------
+
+9  //readers and setters                                                                                                                                                       
+130//  template <FILE *f, typename T = double, const char * label >                                                                                                              
+131//    void SetJobOptions(T option); 
+
+
+
+//get joboptions from external file
+// Change into template TODO
+//template <FILE *f, typename T, const char * label >
+//    void SetJobOptions(T option){
+//  }
+
+//--------------------------------------------------------------------------------------------------
+
+   //m_tauSelTool->setProperty("JetIDWP",  int(TauAnalysisTools::JETIDNONE) );
+
+//--------------------------------------------------------------------------------------------------
+
+/afs/cern.ch/work/p/paige/public/xaodExample/xExample/Root/xExample.cxx
+
+
+//--------------------------------------------------------------------------------------------------
+// tau jet OR
+
+
+    //tmp-check OR
+    int goodTaus(0);
+    for( const xAOD::TauJet *tau : *m_TauJetContShallowCopy.first )
+      if( tau->auxdata< int >( "good" ) )
+	goodTaus++;
+
+
+
+// loop over jets	{}
+
+   //tmp-check OR
+    int JetsNoOR(0);
+    int JetsOR(0);
+    for( const xAOD::Jet *jet : *m_JetContShallowCopy.first )
+      if( jet->auxdata< int >( "no_tau_overlap" ) )
+	JetsNoOR++;
+      else
+	JetsOR++;
+
+    if( goodTaus != JetsOR) Warning("execute()", "OR : %i good taus Vs %i OR ( %i no OR / %lui tagged Jets) ", goodTaus, JetsOR, JetsNoOR, m_JetContShallowCopy.first->size() );
+    
+
+
+//--------------------------------------------------------------------------------------------------
+//jets in shallow copy
+in loop: 
+ if(debug)  Info("execute()", "%i bef jet pt      = %.2f GeV, eta = %.2f", ijet, ((*JetShallowCopyItr)->pt() * MeV2GeV), (*JetShallowCopyItr)->eta());
+
+
+
+// taus in deep copy loop
+
+   before loop:
+
+    int itau = 0;
+
+    in loop:
+
+      int tgood = (*TauJetShallowCopyItr)->auxdata< int >("good");
+      if(debug) Info("execute()", "%i tau after shift pt = %.2f GeV, eta = %.2f, good= %i",
+                     itau++,
+                     ((*TauJetShallowCopyItr)->pt() *   MeV2GeV),
+                     ((*TauJetShallowCopyItr)->eta()),
+                     tgood);
+
+
+      // if( ! METHelper::setOriginalObjectLink(jets, myjets) ) Warning("execute", "Failed to set original object links for jet %i event %i", , );
+
+      // ref: https://twiki.cern.ch/twiki/bin/viewauth/AtlasProtected/METUtilities
+      //
+      // use
+      // if( ! METHelper::setOriginalObjectLink(jets, myjets) ) Warning("execute", "Failed to set original object links for jet %i event %i", , );
+      //as soon it become available
+
+      // ref: https://svnweb.cern.ch/trac/atlasoff/browser/Reconstruction/MET/METUtilities/trunk/METUtilities/METHelper.h
+      //const ElementLink< xAOD::IParticleContainer > link(*JetCont, (*JetShallowCopyItr)->index());      //tmp
+      //m_objLinkAcc(**JetShallowCopyItr) = link; //tmp - look in Includes.h
+
+//--------------------------------------------------------------------------------------------------
+// jets in deep copy loop
+
+before loop:
+    ijet = 0;
+
+in loop:
+
+      // double jvf;
+      //(*JetShallowCopyItr)->getAttribute(xAOD::JetAttribute::JVF, jvf);
+      int jgood = (*JetShallowCopyItr)->auxdata< int >("good");
+      int jclean = (*JetShallowCopyItr)->auxdata< int >("clean");
+      int jOR = (*JetShallowCopyItr)->auxdata< int >("no_tau_overlap");
+      if(debug) Info("execute()", "%i jet after shift pt = %.2f GeV, eta = %.2f clean = %i, no-OR = %i, good= %i",
+                     ijet++,
+                     ((*JetShallowCopyItr)->pt() *      MeV2GeV),
+                     ((*JetShallowCopyItr)->eta()),
+                     jclean,
+                     jOR,
+                     jgood);
+
+
+after loop:
+
+         //for debbugn - tmp
+    ijet = 0;
+    if(debug)
+      for(auto itr                              = m_ViewElemJetCont->begin(); itr != m_ViewElemJetCont->end(); ++itr)
+        Info("execute()", "%i after sort jet pt = %.2f GeV, eta = %.2f ", ijet++, (*itr)->pt()*MeV2GeV, (*itr)->eta() );
+
+    //for( const xAOD::Jet* ajet : *m_ViewElemJetCont){}//C+11: this is also working
+
+    //calculate the mass of the leading(0) and subleading(1) jet
+    typedef  const std::vector<unsigned int>    EntriesT;
+    if(debug) std::cout<<"dijet mass"<< m_bt.MassVisible( m_ViewElemJetCont, EntriesT({0,1}) ) * MeV2GeV <<std::endl;
+
+//--------------------------------------------------------------------------------------------------
+//muons deep copy
+
+before loop: 
+    int imuon=0;
+
+in loop: 
+      int tgood = (*MuonShallowCopyItr)->auxdata< int >("good");
+      if(debug) Info("execute()", "%i muon pt = %.2f GeV, eta = %.2f, good= %i",
+                     imuon++,
+                     ((*MuonShallowCopyItr)->pt() *     MeV2GeV),
+                     ((*MuonShallowCopyItr)->eta()),
+                     tgood);
+
+
+//--------------------------------------------------------------------------------------------------
+//systematics logic
+
+for( syst : systematics ) {
+   applySystematicVariation( syst );
+   const xAOD::ElectronContainer* electrons = ...; // From the input file
+   std::pair< xAOD::ElectronContainer*, xAOD::ShallowCopyContainer > shallowCopy = xAOD::shallowCopyContainer( *electrons );
+   for( auto el : *( shallowCopy.first ) ) {
+      calibrateElectron( el );
+   }
+   std::vector< const xAOD::Electron* > selectedEl;
+   for( auto el : *( shallowCopy.first ) ) {
+      if( goodElectron( el ) ) {
+         selectedEl.push_back( el );
+      }
+   }
+   plot( selectedEl );
+   delete shallowCopy.first; delete shallowCopy.second;
+}
+
+//--------------------------------------------------------------------------------------------------
+
+    // Each MissingETContainer has multiple versions labeled by strings
+    //
+    // See METReaderAlg.cxx. Examples include
+    // (*METFinals)["Final"]              (*METTruths)["NonInt"]
+    // (*METFinals)["RefEle"]             (*METTruths)["Int"]
+    // (*METFinals)["RefGamma"]           (*METTruths)["IntOut"]
+    // (*METFinals)["RefTau"]             (*METTruths)["IntMuons"]
+    // (*METFinals)["RefJet"]
+    // (*METFinals)["Muons"]
+    // (*METFinals)["SoftClus"]
+    // (*METFinals)["SoftClus"]
+
+
+//--------------------------------------------------------------------------------------------------
+
+        // tmp - for test: apply a shift in pt, up by 50% to test the pT sorting function TODO: keep this for syst variations
+        if(ijet == 1 ){
+          double newPt =  (*JetShallowCopyItr)->pt() * (1 + 0.5);
+          xAOD::JetFourMom_t newp4(newPt, (*JetShallowCopyItr)->eta(), (*JetShallowCopyItr)->phi(), (*JetShallowCopyItr)->m());
+          (*JetShallowCopyItr)->setJetP4( newp4); // the 4-momentum is overwritten
+        }
+
+//--------------------------------------------------------------------------------------------------
+
+
+    //    return EL::StatusCode::SUCCESS;
+    // Save calibrated jets in TStore for METRebuilder : hence must NOT delete them at end
+    
+    /*
+      if( !m_store->record(JetContShallowCopy.first,  "AntiKt4LCTopoCalibJets") ||
+        !m_store->record(JetContShallowCopy.second, "AntiKt4LCTopoCalibJetsAux.") ){
+      Error("execute()", "Failed to record AntiKt4LCTopoCalibJets to TStore.");
+      return EL::StatusCode::FAILURE;
+    }
+    */
+//--------------------------------------------------------------------------------------------------
+
+
+      //goodTau selection
+      // temp taui selection by hand:
+      //      if ((*TauJetShallowCopyItr)->pt()*MeV2GeV<20.) taugood=false;
+      //      if(!(fabs((*TauJetShallowCopyItr)->eta()) > 0  && fabs((*TauJetShallowCopyItr)->eta()) < 1.37) || (fabs((*TauJetShallowCopyItr)->eta()) > 1.52  && fabs((*TauJetShallowCopyItr)->eta()) < 3.5)  ) taugood=false;
+      //      if(fabs((*TauJetShallowCopyItr)->charge())!=1.) taugood=false;
+      //      if(!((*TauJetShallowCopyItr)->nTracks()==1 || (*TauJetShallowCopyItr)->nTracks()==3 )) taugood=false;
+      //      if(!((*TauJetShallowCopyItr)->isTau(xAOD::TauJetParameters::JetBDTSigMedium))) taugood=false;
+      //      if(!((*TauJetShallowCopyItr)->isTau(xAOD::TauJetParameters::ElectronVetoMedium))) taugood=false;
+      //
+      //      (*TauJetShallowCopyItr)->auxdata< int >( "good" ) = static_cast< int >( taugood ? 1:0) ;
+
+
+//--------------------------------------------------------------------------------------------------
+
+  //for ( auto p : vJetFlags){}
+  //  for( xAOD::JetContainer *jet : m_ViewElemJetCont){}
+
+  //for( auto ajet : testJets){}
+
+  //xAOD::JetContainer testJets;
+  //for( xAOD::JetContainer &ajet : testJets){} //works
+  //xAOD::JetContainer *testJets = new xAOD::JetContainer(SG::VIEW_ELEMENTS);
+  //for (auto it = testJets->begin(); it != testJets->end(); ++it){}// ok
+  //for( xAOD::JetContainer* & ajet : testJets){}
+  //std::cout<< jet->pt() <<std::endl;
+
+//--------------------------------------------------------------------------------------------------
+
+  if(debug) Info("execute()", "  number of taus = %lu", TauJetCont->size());
+if(debug) Info("execute()", " tau pt = %.2f GeV", ((*TauJetShallowCopyItr)->pt() * MeV2GeV)); // just to print out something
+
+
+#a function with input
+myclass::func( const xAOD::IParticle* xP ) const { ..}
+
+//--------------------------------------------------------------------------------------------------
+
+#checking type
+// Check if this is a tau:
+ if( xP->type() != xAOD::Type::Tau )
+//--------------------------------------------------------------------------------------------------
+
+#casting
+const xAOD::TauJet* xTau = dynamic_cast< const xAOD::TauJet* >( xP );
+http://www.cplusplus.com/doc/tutorial/typecasting/
+
+//--------------------------------------------------------------------------------------------------
+
+# C++11
+for (auto entry : m_cMap)
+      entry.second->fillHistogramCutPre(xTau);
+
+# move and emplace back
+#include <vector>
+#include <string>
+#include <iostream>
+ 
+struct President
+{
+    std::string name;
+    std::string country;
+    int year;
+ 
+    President(std::string p_name, std::string p_country, int p_year)
+        : name(std::move(p_name)), country(std::move(p_country)), year(p_year)
+    {
+        std::cout << "I am being constructed.\n";
+    }
+    President(President&& other)
+        : name(std::move(other.name)), country(std::move(other.country)), year(other.year)
+    {
+        std::cout << "I am being moved.\n";
+    }
+    President& operator=(const President& other) = default;
+};
+ 
+int main()
+{
+    std::vector<President> elections;
+    std::cout << "emplace_back:\n";
+    elections.emplace_back("Nelson Mandela", "South Africa", 1994);
+ 
+    std::vector<President> reElections;
+    std::cout << "\npush_back:\n";
+    reElections.push_back(President("Franklin Delano Roosevelt", "the USA", 1936));
+ 
+    std::cout << "\nContents:\n";
+    for (President const& president: elections) {
+        std::cout << president.name << " was elected president of "
+                  << president.country << " in " << president.year << ".\n";
+    }
+    for (President const& president: reElections) {
+        std::cout << president.name << " was re-elected president of "
+                  << president.country << " in " << president.year << ".\n";
+    }
+}

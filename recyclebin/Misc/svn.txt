@@ -1,0 +1,30 @@
+
+
+#check out package with RC, eg. xAODBase 
+rc checkout_pkg atlasoff/Event/xAOD/xAODBase/tags
+
+rc checkout_pkg atlasoff/PhysicsAnalysis/MuonID/MuonSelectorTools/tags/MuonSelectorTools-00-04-01 
+
+#first commit
+svn import -m "first import" GoeHiggsAnalysis/ $SVNINS/Institutes/Goettingen/GoeHiggsAnalysis/
+
+#first check out
+svn co $SVNINS/Institutes/Goettingen/GoeHiggsAnalysis/ GoeHiggsAnalysis
+
+#ignore directories and files in subversion - to set the ignore property to multiple items
+svn propset svn:ignore "RootCoreBin xAOD rcSetup.* .asetup.save  .RootCoreBin" .
+
+# to check what properties are set
+svn proplist
+
+# to see the value of svn:ignore
+svn propget svn:ignore
+
+# To delete properties previously set :
+svn propdel svn:ignore
+
+#status
+svn st
+
+#change log
+svn ps svn:mime-type application/octet-stream ChangeLog
